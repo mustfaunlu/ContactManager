@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="groups">
+        <item>Family</item>
+        <item>Friends</item>
+        <item>Colleague</item>
+        <item>Teammate</item>
+    </string-array>
+</resources>

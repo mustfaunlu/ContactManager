@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_family"
+        android:name="com.mustafaunlu.contactmanager.ui.family.FamilyFragment"
+        android:label="@string/menu_family"
+        tools:layout="@layout/fragment_family" >
+        <action
+            android:id="@+id/action_nav_family_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_friends"
+        android:name="com.mustafaunlu.contactmanager.ui.friends.FriendsFragment"
+        android:label="@string/menu_friends"
+        tools:layout="@layout/fragment_friends" >
+        <action
+            android:id="@+id/action_nav_friends_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_teammate"
+        android:name="com.mustafaunlu.contactmanager.ui.teammate.TeammateFragment"
+        android:label="@string/menu_teammate"
+        tools:layout="@layout/fragment_teammate" >
+        <action
+            android:id="@+id/action_nav_teammate_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_work"
+        android:name="com.mustafaunlu.contactmanager.ui.colleague.ColleagueFragment"
+        android:label="@string/menu_work"
+        tools:layout="@layout/fragment_colleague" >
+        <action
+            android:id="@+id/action_nav_work_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mustafaunlu.contactmanager.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createContactFragment"
+        android:name="com.mustafaunlu.contactmanager.ui.create.CreateContactFragment"
+        android:label="@string/create_contact"
+        tools:layout="@layout/fragment_create_contact" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.mustafaunlu.contactmanager.ui.detail.DetailFragment"
+        android:label="@string/detail_fragment_label"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="contactId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

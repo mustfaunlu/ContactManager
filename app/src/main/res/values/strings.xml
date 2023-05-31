@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ContactManager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mustafa UNLU</string>
+    <string name="nav_header_subtitle">mustafaunlu@mail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_family">Family</string>
+    <string name="menu_friends">Friends</string>
+    <string name="menu_teammate">Teammate</string>
+    <string name="menu_work">Colleague</string>
+    <string name="home">Homepage</string>
+    <string name="create_contact">Create New Contact</string>
+    <string name="mail_subheader_title">Contact Groups</string>
+    <string name="menu_home">Homepage</string>
+    <string name="search_hint">Search Contact</string>
+    <string name="select_a_contact_group">Select a contact group</string>
+    <string name="your_name_hint">Your name</string>
+    <string name="your_surname_hint">Your surname</string>
+    <string name="your_mail_adress_hint">Your mail adress</string>
+    <string name="your_phone_number_hint">Your phone number</string>
+    <string name="save_new_contact_btn_txt">Save new contact</string>
+    <string name="your_adress_hint">Your adress</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_contact">Delete Contact</string>
+    <string name="update_contact">Update Contact</string>
+    <string name="detail_fragment_label">Contact Info</string>
+    <string name="save_changes_detail">Save Changes</string>
+    <string name="your_group_hint">Your group</string>
+    <string name="contact_updated">Contact updated!</string>
+    <string name="contact_deleted">Contact deleted</string>
+    <string name="unexpected_error">Unexpected Error!</string>
+    <string name="family">Family</string>
+    <string name="contact_added_successfully">Contact added successfully!</string>
+    <string name="dont_empty_fields">Please don\'t leave any fields empty!</string>
+    <string name="dialog_warn_txt">Are you sure you want to delete this contact?</string>
+</resources>
