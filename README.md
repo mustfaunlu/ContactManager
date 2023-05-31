@@ -18,8 +18,8 @@ The application follows the MVVM + Clean Architecture as its architectural patte
 <img src="/previews/create-contact-screen.png" width="20%"/>
 <img src="/previews/create-screen-1.png" width="20%"/>
 <img src="/previews/created-contact.png" width="20%"/>
-<img src="https://github.com/mustfaunlu/AutobiographyApp/assets/38860392/516af44d-e3f3-41c0-907c-84251ff52039" width="20%"/>
-<img src="https://github.com/mustfaunlu/AutobiographyApp/assets/38860392/07183ec3-e023-448f-80ab-6865874dd1a1" width="20%"/>
+<img src="/previews/update-logic.gif" width="20%"/>
+<img src="/previews/search-logic.gif" width="20%"/>
 <img src="/previews/delete-screen.png" width="20%"/>
 
 </p>
